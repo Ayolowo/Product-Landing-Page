@@ -1,0 +1,39 @@
+*{
+    background-color: #eee;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    color: white;
+    padding: 1em;
+  }
+  
+  body{
+    font-family: 'Lato', sans-serif;
+  }
+  
+  nav{
+    display: block;
+    font-weight: 400;
+    
+  }
+  
+  nav>ul{
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  @media only screen and (max-width: 40px){
+    li {
+      display: list-item;
+      text-align: -webkit-match-parent;
+  }
+  }
